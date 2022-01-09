@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pipenv-setup = "*"
+chardet = "*"
+
+[packages]
+requests = "*"
+flask = "*"
+flask_restful = "*"
+pandas = "*"
+pytest = "*"
+pytest-bdd = "*"
+
+[requires]
+python_version = "3.8"
